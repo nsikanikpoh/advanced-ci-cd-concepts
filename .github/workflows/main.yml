@@ -20,5 +20,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Check Cargo FMT
       run: cargo fmt --check
+    - name: Run tests
+      run: cargo test
     - name: Make sure Rust builds correctly
       run: cargo build
