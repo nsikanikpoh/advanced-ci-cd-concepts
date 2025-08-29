@@ -64,7 +64,7 @@ fn main() {
             if !seen_files.contains(&file) {
                 failed = true;
                 println!(
-                    "[FAIL] required file {file} not found in {}",
+                    "[FAIL] required File {file} not found in {}",
                     rule.path_regex
                 );
             }
