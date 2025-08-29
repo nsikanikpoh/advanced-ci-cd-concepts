@@ -6,7 +6,8 @@ name: Rust Code Quality
 
 on:
   pull_request:
-  branches: ["main"]
+  branches:
+    - main
 
 jobs:
   matrix_build:
